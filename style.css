@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+  margin: 50px;
+}
+.grid {
+  margin-top: 20px;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightgray;
+  border-right: 3px solid rgb(189, 186, 186);
+  border-bottom: 3px solid rgb(189, 186, 186);
+}
+
+.grid div {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-shadow: inset 3px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 3px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.bomb {
+  /* background-color: orange; */
+}
+.flag {
+  background-color: #c79bb4;
+}
+.checked {
+  background-color: #ebd9f3;
+}
+
+.btn-reset {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  background-color: #c79bb4;
+}
+
+.result {
+  display: inline;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+  color: crimson;
+}
